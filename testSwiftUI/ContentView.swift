@@ -24,7 +24,6 @@ struct ContentView: View{
       let diff = sqrt(rDiff * rDiff + gDiff * gDiff + bDiff * bDiff)
       return Int((1.0 - diff) * 100.0 + 0.5)
     }
-    
     var body: some View {
         
         VStack {
